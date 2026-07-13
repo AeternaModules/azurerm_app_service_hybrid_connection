@@ -17,7 +17,7 @@ EOT
     port                = number
     relay_id            = string
     resource_group_name = string
-    send_key_name       = optional(string) # Default: "RootManageSharedAccessKey"
+    send_key_name       = optional(string)
   }))
 }
 
